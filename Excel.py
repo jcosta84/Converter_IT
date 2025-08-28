@@ -1,7 +1,8 @@
 import os
 import win32com.client as win32
 
-pasta = r"F:\Direcção Comercial\Dados\Anomalia de Facturação\Julho 2025"
+pasta = r"F:\Direcção Comercial\Tratamento Telecom\Doc Pagamento\Inicial"
+
 
 excel = win32.Dispatch("Excel.Application")
 excel.DisplayAlerts = False  # evita mensagens do Excel
